@@ -1,0 +1,108 @@
+@media screen and (max-width: 500px) {
+  nav {
+   min-width: 95vw;
+  }
+
+  .logo-container {
+    width: 100vw;
+  }
+
+  .netflix-logo {
+    width: 120px;
+  }
+
+  .button-container {
+    min-width: 35vw;
+  }
+
+  .nav-btn {
+    font-size: 0.8rem;
+  }
+
+  #lang-btn {
+    width: 20vw;
+    background-color: transparent;
+    border: 2px solid gray;
+    padding: 0.5rem 0.2rem;
+    display: block;
+  }
+
+  #lang-btn1 {
+    display: none;
+    
+  }
+
+  #sign-in-btn {
+    background-color: red;
+    padding: 0.5rem 0.2rem;
+    width: 12vw;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #lang-btn {
+    display: none;
+  }
+
+  #lang-btn1 {
+    display: block;
+    width: 50px;
+    background-color: transparent;
+    border: 2px solid gray;
+    display: block;
+  }
+
+  .button-container {
+    min-width: 35vw;
+  }
+
+  #sign-in-btn {
+    background-color: red;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    height: 70vh;
+  }
+
+  .box {
+    height: 70vh;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    align-content: start;
+    gap: 0;
+  }
+
+  .netflix-logo {
+    width: 40vw;
+  }
+
+  .button-container {
+    min-width: 48vw;
+    justify-content: space-around;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .content-container {
+    gap: 0.5rem;
+  }
+  .hero-heading {
+    font-size: 1.5rem;
+  }
+
+  .hero-para {
+    font-size: 0.5rem;
+  }
+}
+
+

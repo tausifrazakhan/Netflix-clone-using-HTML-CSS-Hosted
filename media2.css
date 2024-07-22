@@ -1,0 +1,247 @@
+
+@media screen and (max-width: 960px) {
+  .hero-heading {
+    font-size: 2.1rem;
+  }
+
+  #para-1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #para-2 {
+    font-size: 1.3rem;
+    letter-spacing: 0.3;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero-heading {
+    text-align: center;
+  }
+
+  #para-2 {
+    text-align: center;
+  }
+
+  .form-input {
+    width: 52vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+
+  .form-input {
+    width: 80vw;
+  }
+
+  .form-btn {
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    max-width: 90vw;
+  }
+
+  .section-img-container video {
+    position: absolute;
+    top: 4rem;
+    right: 3.5rem;
+  }
+
+  #section-img-container3 video {
+    position: absolute;
+    top: 1.8rem;
+    right: 5.2rem;
+  }
+
+  .FAQ-container{
+    min-width: 90vw;
+   }
+
+   .FAQ-heading{
+    font-size: 2rem;
+   }
+
+   .FAQ{
+    font-size: 1.2rem;
+   }
+
+   .icon{
+    font-size: 2rem;
+   }
+
+   
+.form-para{
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.footer-container{
+  max-width:90vw;
+  padding-left:3rem ;
+  margin: 0;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+  .section {
+    max-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 1.5rem;
+    gap: 0rem;
+  }
+
+  .section-content {
+    align-items: center;
+  }
+
+  .section-heading {
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .section-para {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .section-img {
+    width: 650px;
+  }
+
+  .section-img-container video {
+    width: 500px;
+    position: absolute;
+    top: 6rem;
+    right: 4rem;
+  }
+
+  #section-img-container3 video {
+    width: 400px;
+    position: absolute;
+    top: 2rem;
+    right: 8rem;
+  }
+
+  #section-2, #section-4 {
+    flex-direction: column-reverse;
+  }
+
+
+  .footer-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  }
+
+
+}
+
+@media screen and (max-width: 675px) {
+  .section-img-container video {
+    width: 400px;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  #section-img-container3 video {
+    width: 250px;
+    position: absolute;
+    top: 2rem;
+    left:5.4rem;
+  }
+
+
+  .section-img {
+    width: 70vw;
+    overflow: hidden;
+  }
+
+  #section-img3{
+width: 420px;
+  }
+
+  .section-img-container {
+    overflow: hidden;
+  }
+
+  .FAQ-container{
+    min-width: 60vw;
+  }
+}
+
+.form-para{
+  width: 85vw;
+}
+
+@media screen and (max-width: 560px) {
+
+  .section-img-container video {
+    width: 200px;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+  }
+
+
+  #section-img3{
+    width: 300px;
+      }
+
+  #section-img-container3 video{
+    width: 200px;
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+  }
+
+  .section-img {
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .section-img-container {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .section-img {
+    width: 60vw;
+  }
+
+  .section-img-container video {
+    width: 50vw;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+  }
+
+  #section-img3{
+    width: 60vw;
+  }
+
+  #section-img-container3 video{
+    width: 40vw;
+    position: absolute;
+    top: 0.8rem;
+    left: 1.7rem;
+  }
+
+  .FAQ-container{
+    min-width: 40vw;
+  }
+}
