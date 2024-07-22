@@ -1,2 +1,2 @@
 # Netflix-clone-using-HTML-CSS-Hosted
-Netflix website clone using HTML &amp; CSS
+Netflix website clone using vanilla HTML &amp; CSS
